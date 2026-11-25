@@ -8,6 +8,8 @@ Browser mic ─AudioWorklet─▶ 16 kHz PCM16 ─WebSocket─▶ Node relay (Fa
 Browser speakers ◀─ gapless playback ◀─ 24 kHz PCM16 ◀─WebSocket─ Node relay ◀──────────── Gemini Live
 ```
 
+See [CHANGES.md](CHANGES.md) for a summary of what was built and verified.
+
 The Gemini API key lives **only** in `apps/server/.env`. The browser talks to the relay, never to Google directly.
 
 ## Quick start
